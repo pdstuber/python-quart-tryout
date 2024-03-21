@@ -1,0 +1,1 @@
+This is a project to tryout the [quart](https://github.com/pallets/quart) framework with the [hypercorn](https://github.com/pgjones/hypercorn) server with [Poetry](https://github.com/python-poetry/poetry) for package management.
