@@ -20,6 +20,6 @@ ENV VIRTUAL_ENV=/app/.venv \
 
 COPY --from=builder ${VIRTUAL_ENV} ${VIRTUAL_ENV}
 
-COPY python-quart-tryout ./python-quart-tryout
+COPY python_quart_tryout ./python_quart_tryout
 
-ENTRYPOINT ["python", "-m", "python-quart-tryout.main"]
+ENTRYPOINT ["python", "-m", "python_quart_tryout.app"]

@@ -1,1 +1,1 @@
-web hypercorn python-quart-tryout:main
+web: hypercorn python_quart_tryout.app:app
