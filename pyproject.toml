@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "python-quart-tryout"
+version = "0.1.0"
+description = ""
+authors = ["Philipp Stuber <stuberphd@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+quart = "^0.19.4"
+hypercorn = "^0.16.0"
+asyncio = "^3.4.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
